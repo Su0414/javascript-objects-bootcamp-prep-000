@@ -1,4 +1,4 @@
-var playlist = {
+const playlist = {
   //artistName : songTitle
   "arjitsingh":"ghar aaya",
   "shreya": "barso re"
