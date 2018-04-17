@@ -5,7 +5,8 @@ const playlist = {
 };
 
 function updatePlaylist(playlist, artistName, songTitle){
-  console.log(playlist);
+  //console.log(playlist);
   playlist[artistName]=songTitle;
   return playlist;
 }
+
