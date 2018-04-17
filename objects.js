@@ -6,7 +6,6 @@ const playlist = {
 
 function updatePlaylist(playlist, artistName, songTitle){
   console.log(playlist);
-  const newPlay = Object.assign( {} , playlist, {[artistName]:songTitle});
-  console.log(newPlay.artistName);
-  return newPlay;
+  playlist[artistName]=songTitle;
+  return playlist;
 }
