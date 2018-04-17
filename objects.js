@@ -1,5 +1,6 @@
 var playlist = {
-  artistName : songTitle
+  //artistName : songTitle
+  "arjitsingh":"ghar aaya"
 };
 
 
