@@ -1,6 +1,5 @@
 var playlist = {
   artistName : songTitle
-
 };
 
 
