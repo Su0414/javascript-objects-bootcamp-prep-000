@@ -4,4 +4,6 @@ var playlist = {
 };
 
 
-function 
+function updatePlaylist(playlist, artistName, songTitle){
+  
+}
