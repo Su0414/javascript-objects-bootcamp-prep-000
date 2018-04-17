@@ -3,8 +3,8 @@ var playlist = {
   "arjitsingh":"ghar aaya"
 };
 
+const newPlaylist = playlist;
 
-function updatePlaylist(playlist, artistName, songTitle){
-  const newPlaylist = playlist;
+function updatePlaylist(newPlaylist, artistName, songTitle){
   return Object.assign({},newPlaylist, {[artistName]: songTitle});
 }
